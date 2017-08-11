@@ -38,12 +38,10 @@ Features
 <br><br>
 
 <img align="left" src="https://user-images.githubusercontent.com/15705129/29231035-61a721ca-7f07-11e7-9356-764222370f71.png" width="250">
-<img align="left" src="https://user-images.githubusercontent.com/15705129/29231036-61ae1688-7f07-11e7-8080-6e914d768c52.png" width="250">
+<img align="left" src="https://user-images.githubusercontent.com/15705129/29231040-61e09ef0-7f07-11e7-9c40-6c2a2d84881c.png" width="250">
 <img align="left" src="https://user-images.githubusercontent.com/15705129/29231039-61d97cce-7f07-11e7-9242-f90a35f8072a.png" width="250">
 -------------
 <br><br>
-
-<img align="left" src="https://user-images.githubusercontent.com/15705129/29231040-61e09ef0-7f07-11e7-9c40-6c2a2d84881c.png" width="250">
 
 
 
