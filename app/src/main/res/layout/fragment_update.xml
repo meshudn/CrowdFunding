@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="navigationFrag.UpdateActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/update_main_layout"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/updateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#2BDE73"
+            android:text="Write updates!"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/updateRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/updateBtn"
+            android:layout_alignParentTop="true"
+             >
+
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+</FrameLayout>

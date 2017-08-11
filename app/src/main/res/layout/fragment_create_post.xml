@@ -1,0 +1,153 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="#fff"
+    android:paddingTop="12dp"
+    tools:context="navigationFrag.CreatePost">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- root container  -->
+            <EditText
+                android:id="@+id/postTitle"
+                android:hint="Post Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/fieldBg"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/fieldPostTxt"
+                android:textSize="@dimen/fieldTxtSize" />
+
+
+            <EditText
+                android:id="@+id/postDesc"
+                android:hint="Full Description"
+                android:lines="5"
+                android:minLines="5"
+                android:gravity="top|left"
+                android:maxLines="10"
+                android:inputType="textMultiLine|textCapSentences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/fieldBg"
+
+                android:padding="10dp"
+                android:textColor="@color/fieldPostTxt"
+                android:textSize="@dimen/fieldTxtSize" />
+
+
+            <EditText
+                android:id="@+id/postLocation"
+                android:hint="Location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/fieldBg"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/fieldPostTxt"
+                android:textSize="@dimen/fieldTxtSize" />
+
+            <EditText
+                android:id="@+id/postTag"
+                android:hint="Tag or Category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/fieldBg"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/fieldPostTxt"
+                android:textSize="@dimen/fieldTxtSize" />
+
+            <EditText
+                android:id="@+id/postTargetFund"
+                android:hint="Target Fund"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/fieldBg"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="@color/fieldPostTxt"
+                android:textSize="@dimen/fieldTxtSize" />
+
+            <EditText
+                android:id="@+id/postRemainDays"
+                android:hint="Remaining Day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/fieldBg"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="@color/fieldPostTxt"
+                android:textSize="@dimen/fieldTxtSize" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/tonoy"
+                android:visibility="gone"
+                android:id="@+id/coverPhoto"
+                android:layout_marginBottom="10dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/uploadImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f2f2f2"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:paddingBottom="6dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/camera" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="6dp"
+                    android:text="Profile Picture"
+                    android:textColor="#888"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/creatPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20dp"
+                android:background="#2BDE73"
+                android:text="Post Now!"
+                android:textStyle="bold"
+                android:textColor="#ffffff" />
+
+            <!-- end of container -->
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/comment_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:id="@+id/headingLayout"
+       >
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:src="@drawable/commentbg"
+           android:scaleType="centerCrop"
+           />
+       <TextView
+           android:background="#07000000"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="kintenic: the motion sensor"
+           android:id="@+id/postTitle"
+           android:textColor="#fff"
+           android:layout_above="@+id/createdByTv"
+           android:layout_centerHorizontal="true"
+           />
+       <TextView
+           android:background="#07000000"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="by meshu deb nath"
+           android:id="@+id/createdByTv"
+           android:layout_marginTop="5dp"
+           android:layout_centerInParent="true"
+           android:textColor="#fff"
+           />
+
+   </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/commentBtn"
+        android:text="Write something!"
+        android:textSize="13sp"
+        android:background="#2BDE73"
+        android:textColor="#fff"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/commentRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/headingLayout"
+        android:layout_above="@id/commentBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

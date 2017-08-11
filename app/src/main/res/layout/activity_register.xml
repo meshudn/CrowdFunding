@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+    <ScrollView
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bglayer"
+                android:gravity="center"
+                android:text="Sign Up!"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/userNameTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/fieldBg"
+                android:hint="User Name"
+                android:padding="10dp"
+                android:textColor="@color/fieldText"
+                android:textSize="@dimen/fieldTxtSize" />
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/fieldBg"
+                android:hint="Email Address"
+                android:padding="10dp"
+                android:textColor="@color/fieldText"
+                android:textSize="@dimen/fieldTxtSize" />
+
+            <EditText
+                android:id="@+id/FirstPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/fieldBg"
+                android:hint="Password"
+                android:inputType="textVisiblePassword"
+                android:padding="10dp"
+                android:textColor="@color/fieldText"
+                android:textSize="@dimen/fieldTxtSize" />
+
+            <EditText
+                android:id="@+id/ConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@color/fieldBg"
+                android:hint="Confirm Password"
+                android:inputType="textVisiblePassword"
+                android:padding="10dp"
+                android:textColor="@color/fieldText"
+                android:textSize="@dimen/fieldTxtSize" />
+
+            <EditText
+                android:id="@+id/ContactNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@color/fieldBg"
+                android:hint="Contact Number"
+                android:padding="10dp"
+                android:textColor="@color/fieldText"
+                android:textSize="@dimen/fieldTxtSize" />
+
+            <EditText
+                android:id="@+id/NIDNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ContactNumber"
+                android:layout_marginBottom="15dp"
+                android:background="@color/fieldBg"
+                android:hint="NID Number"
+                android:padding="10dp"
+                android:textColor="@color/fieldText"
+                android:textSize="@dimen/fieldTxtSize" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/tonoy"
+                android:visibility="gone"
+                android:id="@+id/coverPhoto"
+                android:layout_marginBottom="10dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/uploadImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f2f2f2"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:paddingBottom="6dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/camera" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="8dp"
+                    android:text="Profile Picture"
+                    android:textColor="#888"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:background="#2BDE73"
+        android:text="Register Now!"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

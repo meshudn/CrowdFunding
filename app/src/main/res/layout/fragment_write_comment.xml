@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="navigationFrag.WriteCommentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bglayer"
+            android:gravity="center"
+            android:text="What's on your mind ?!"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="15"
+            android:minLines="15"
+            android:gravity="top|left"
+            android:maxLines="15"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:inputType="textMultiLine|textCapSentences"
+
+            android:id="@+id/commentDesc"
+            android:textColor="#000"
+            android:hint="Write something"
+            android:background="#f6f6f6"
+            android:textSize="16dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/commentSubmit"
+                android:text="Done"
+                android:textSize="13sp"
+                android:background="#2BDE73"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/commentCancle"
+                android:layout_weight="1"
+                android:text="Cancle"
+                android:textSize="13sp"
+                android:background="#2BDE73"
+                android:textColor="#fff"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

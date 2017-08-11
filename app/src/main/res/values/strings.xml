@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Crowd Funding</string>
+    <string name="title_section1">No. one</string>
+    <string name="title_section2">two</string>
+    <string name="title_section3">the third</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_home">Crowd Funding</string>
+</resources>

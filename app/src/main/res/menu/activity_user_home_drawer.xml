@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:visible="false"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Login here!" />
+        <item
+            android:id="@+id/allProject"
+            android:icon="@drawable/home_icon"
+            android:title="All Projects" />
+        <item
+            android:id="@+id/myProject"
+            android:icon="@drawable/tag"
+            android:title="My Projects" />
+        <item
+            android:id="@+id/createProject"
+            android:icon="@drawable/createpost"
+            android:title="Create A Project" />
+        <item
+            android:id="@+id/editProject"
+            android:icon="@drawable/edit_file"
+            android:title="Edit Project" />
+        <item
+            android:id="@+id/payments"
+            android:icon="@drawable/payment"
+            android:title="Payment History" />
+        <item
+            android:id="@+id/love"
+            android:icon="@drawable/love_icon"
+            android:title="Project I Love" />
+
+        <item
+            android:id="@+id/recommend"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Recommended for you" />
+
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/profile_icon"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_editProfile"
+                android:icon="@drawable/profile_edit"
+                android:title="Profile edit" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

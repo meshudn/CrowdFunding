@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "73962710710",
+    "firebase_url": "https://charity-d5c04.firebaseio.com",
+    "project_id": "charity-d5c04",
+    "storage_bucket": "charity-d5c04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73962710710:android:b9a212c9c1440a39",
+        "android_client_info": {
+          "package_name": "com.charity.meshu.charity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73962710710-ig12lhr9014oapdb60o8i67j4fn1sjtf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMBXuWjGMYzK2dYUqZgFREENoDjjoP14A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
