@@ -10,13 +10,12 @@ people who know you, love you, and support you.
 
 Features
 -------------
+  - Mobile-friendly campaigns
+  - No deadlines or goal requirements
+  - Keep every donation you receive
+  - Live communication with project owner
+  - Updates
 
-> - Mobile-friendly campaigns
-> - No deadlines or goal requirements
-> - Keep every donation you receive
-> - Live communication with project owner
-> - Updates
--------------
 Technology:
 ------------
  1. Firebase Authentication 
@@ -26,7 +25,7 @@ Technology:
  5. Picaso
  
 #### <i class="icon-file"></i> Screenshots
-
+--------------------------------------------
 <img align="left" src="https://user-images.githubusercontent.com/15705129/29231028-61594de2-7f07-11e7-981b-3efaf93eefd8.png" width="250">
 <img align="left" src="https://user-images.githubusercontent.com/15705129/29231042-620d4fea-7f07-11e7-983f-6a3529cbbed2.png" width="250">
 <img align="left" src="https://user-images.githubusercontent.com/15705129/29231031-6171804c-7f07-11e7-842b-957598c5650f.png" width="250">
