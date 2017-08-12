@@ -22,7 +22,10 @@ Technology:
  3. ActiveAndroid ( ORM )
  4. SQLite database
  5. Picaso
- 
+
+## License 
+**&copy; 2016 Meshu Debnath, All rights reserved
+
 **Screenshots**
 ----------------
 <img align="left" src="https://user-images.githubusercontent.com/15705129/29231028-61594de2-7f07-11e7-981b-3efaf93eefd8.png" width="250">
@@ -51,5 +54,4 @@ Technology:
 <br><br>
 
 
-## License 
-**&copy; 2016 Meshu Debnath, All rights reserved
+
