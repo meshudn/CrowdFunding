@@ -1,5 +1,6 @@
 # CrowdFunding
 #### (Android version)
+-----------------------
 <b>What is crowd funding? </b> </br>
 Crowdfunding is a method of raising capital through the collective effort of friends,
 family, customers, and individual investors. This approach taps into the collective 
