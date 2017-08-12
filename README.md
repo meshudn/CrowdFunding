@@ -11,8 +11,6 @@ people who know you, love you, and support you.
 
 Features
 -------------
-  - Mobile-friendly campaigns
-  - No deadlines or goal requirements
   - Keep every donation you receive
   - Live communication with project owner
   - Updates
