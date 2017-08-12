@@ -17,6 +17,14 @@ Features
 > - Live communication with project owner
 > - Updates
 -------------
+Technology:
+------------
+ 1. Firebase Authentication 
+ 2. Firebase Database & storage
+ 3. ActiveAndroid ( ORM )
+ 4. SQLite database
+ 5. Picaso
+ 
 #### <i class="icon-file"></i> Screenshots
 
 <img align="left" src="https://user-images.githubusercontent.com/15705129/29231028-61594de2-7f07-11e7-981b-3efaf93eefd8.png" width="250">
