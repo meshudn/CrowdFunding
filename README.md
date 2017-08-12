@@ -24,7 +24,7 @@ Technology:
  5. Picaso
 
 ## License 
-**&copy; 2016 Meshu Debnath, All rights reserved
+#### &copy; 2016 Meshu Debnath, All rights reserved
 
 **Screenshots**
 ----------------
